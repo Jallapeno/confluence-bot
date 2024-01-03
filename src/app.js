@@ -20,7 +20,7 @@ export const handle = async () => {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
-              'Authorization': authHeaderBearer,
+              'Authorization': authHeaderBasic,
             },
         });
 
